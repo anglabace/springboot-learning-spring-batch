@@ -1,0 +1,43 @@
+{
+	"map": [
+		{
+			"entry": [
+				{
+					"string": [
+						"batch.taskletType",
+						"org.springframework.batch.core.step.item.ChunkOrientedTasklet"
+					]
+				},
+				{
+					"string": [
+						"batch.stepType",
+						"org.springframework.batch.core.step.tasklet.TaskletStep"
+					]
+				}
+			]
+		}
+	]
+}{
+	"map": [
+		{
+			"entry": [
+				{
+					"string": [
+						"batch.taskletType",
+						"org.springframework.batch.core.step.item.ChunkOrientedTasklet"
+					]
+				},
+				{
+					"string": "curIndex",
+					"int": 40
+				},
+				{
+					"string": [
+						"batch.stepType",
+						"org.springframework.batch.core.step.tasklet.TaskletStep"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+package com.patel.pradeep.chap5.databaseOutput;
+
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableBatchProcessing
+public class DatabaseOutputApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DatabaseOutputApplication.class, args);
+    }
+}
